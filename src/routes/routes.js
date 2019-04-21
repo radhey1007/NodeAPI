@@ -13,7 +13,7 @@ router.get('/', function(req,res){
 
 // Export API routes
 
-// Import contact controller
+// Import product controller
 var productController = require('../controllers/productControllers');
 
 // Product Routes
