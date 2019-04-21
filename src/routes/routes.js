@@ -16,7 +16,7 @@ router.get('/', function(req,res){
 // Import contact controller
 var productController = require('../controllers/productControllers');
 
-// Contact Routes
+// Product Routes
 
 router.route('/product')
        .get(productController.index)
